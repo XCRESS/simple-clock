@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>clock</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            color: white;
+            background-color: black;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            height: 100vh;
+        }
+        h1{
+            font-family: monospace;
+        }
+        .clock{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            border: 5px solid orange;
+            padding: 20px;
+            height: 100px;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>clock</h1>
+        <div class="clock"></div>
+    </div>
+
+</body>
+</html>
